@@ -1,23 +1,35 @@
-name: null
-favicon: null
-layout_spectrum: 0.029697655700147152
-typography_spectrum: 0.1328145912848413
-cta:
-  domain: null
-  bucket: null
-  version: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.5657772766426206
+  brandStrength: 0.7230576
+  lightness: 0.9864255427382886
+  brandColors: []
+  rhythmicContrast: 0.4482242590747774
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+cta:
+  bucket: null
+  version: null
+  domain: null
+favicon: null
+name: Kilobox
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors: []
-  brandStrength: 0.8455165785271674
-  lightness: 0.9864255427382886
-  saturation: 0.5657772766426206
-  rhythmicContrast: 0.44822425907477736
-purpose: []
+typography_spectrum: 0.1328145912848413
+layout_spectrum: 0.9598997
